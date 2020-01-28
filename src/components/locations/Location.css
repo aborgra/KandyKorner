@@ -1,0 +1,21 @@
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.location {
+  flex-basis: 25%;
+  margin: 1em;
+  padding: 1em;
+  background-color: rgb(252, 246, 255);
+  -webkit-box-shadow: 10px 10px 16px 10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 16px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 16px 10px rgba(0, 0, 0, 0.75);
+}
+
+.location:hover{
+  background-color: rgb(231, 229, 231);
+  transition-duration: 300ms;
+  flex-basis: 27%
+}

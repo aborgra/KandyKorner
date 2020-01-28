@@ -1,0 +1,49 @@
+
+
+.employeeList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.employees {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.employee {
+  flex-basis: 25%;
+  margin: 1em;
+  padding: 1em;
+  background-color: rgb(252, 246, 255);
+  -webkit-box-shadow: 10px 10px 16px 10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 16px 10px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 16px 10px rgba(0, 0, 0, 0.75);
+}
+
+.employee:hover{
+  background-color: rgb(231, 229, 231);
+  transition-duration: 300ms;
+  flex-basis: 27%
+}
+
+.employeeForm {
+  text-align: center;
+  margin-top: 30pt;
+  border: 1pt solid black;
+  border-radius: 3pt;
+  width: 400px;
+  margin-left: 200pt;
+  padding: 20pt;
+  background-color: white;
+}
+
+.form-group {
+  margin-bottom: 10pt
+}
+
+.fieldset--login {
+  background-color: white;
+  border-radius: 3pt;
+}
+

@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  background-color: rgb(91, 29, 133);
+}
+
+.navbar__item {
+  flex-basis: 20%;
+  list-style-type: none;
+  border: 1pt solid black;
+  border-radius: 5pt;
+  padding: 8pt;
+  margin: 15pt;
+  max-width: 120px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(241, 241, 241);
+  -webkit-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+}

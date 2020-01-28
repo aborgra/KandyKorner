@@ -1,0 +1,30 @@
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+}
+
+.product {
+  flex-basis: 25%;
+  margin: 1em;
+  padding: 1em;
+  text-align: center;
+  background-color: rgb(252, 246, 255);
+  -webkit-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.75);
+}
+
+.product:hover{
+  background-color: rgb(231, 229, 231);
+  transition-duration: 300ms;
+  flex-basis: 27%
+}
+
+#root {
+  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.freepik.com%2Ffree-photo%2Fcandies-marshmallows-yellow-background_23-2147710891.jpg&imgrefurl=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fcandy-background&docid=c-ErPbL9YmeJRM&tbnid=W3Moyba5mTxdPM%3A&vet=10ahUKEwik1PH2i53nAhUBheAKHeY-DMoQMwiUASgKMAo..i&w=626&h=352&bih=722&biw=1536&q=candy%20background&ved=0ahUKEwik1PH2i53nAhUBheAKHeY-DMoQMwiUASgKMAo&iact=mrc&uact=8");
+  background-repeat: no-repeat;
+}
+
+
